@@ -1,13 +1,35 @@
 {
-  "title": "Test Scenario for Venafi",
-  "description": "Venafi - Kubernetes Integration",
+  "title": "Learn how to protect machine identities with Venafi",
+  "description": "Protecting machine identities in your Kubernetes Cluster using Venafi and Jetstack cert-manager",
   "difficulty": "beginner",
-  "time": "5 minutes",
+  "time": "30 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Run Command",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - Run Command",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Create demo environment",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Setup your cluster",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Connect to Venafi Cloud",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Protect Machine Identities",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Validate everything is working",
+        "text": "step6.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
